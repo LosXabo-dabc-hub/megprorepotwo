@@ -1,0 +1,139 @@
+<html>
+
+<head>
+    <link
+        href='https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900,400italic,700italic,900italic|Droid+Serif:400,700,400italic,700italic'
+        rel='stylesheet' type='text/css'>
+    <!-- <link rel="stylesheet" href="/static/css/style.css"> -->
+    <title>Data Lake Final Project</title>
+    <meta name="viewport" content="width=device-width">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="{{ url_for('static',filename= './css/style.css') }}">
+</head>
+
+<body>
+    <div class="head">
+        <div class="headerobjectswrapper">
+            <div class="weatherforcastbox"><span style="font-style: italic;">Weatherforcast for the next 24 hours: Cold
+                    Cold Winter</span><br><span>Wind: 7km/h SSE; Ther: 21°C; Hum: 82%</span></div>
+            <header>Data Lake <br>times </header>
+        </div>
+
+        <div class="subhead">Arlington, VA - Thursday November 30, 2019 - Seven Pages
+            <nav style="padding-left: 6cm;">
+                <div>
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                            data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a style="color:	black; font: 28px ; " class="navbar-brand"
+                            href="/">Earthquakes</a>
+                    </div>
+                  
+                    <div class="topnav-centered" >
+                       
+                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" >
+                            <ul class="nav navbar-nav background-color= #">
+                                <li class="dropdown"  font: 20px ;>
+
+                                </li>
+                                
+                                <li> <a href="{{ url_for('news1') }}">Earthquake
+                                        Visualizations</a></li>
+                                <li> <a href="{{ url_for('aboutr') }}">About</a>
+                                </li>
+                                <li><a href="{{ url_for('data1') }}">Earthquake
+                                        Data</a></li>
+                                <li> <a href="{{ url_for('maps1') }}">Earthquake
+                                        Map</a></li>
+
+
+                            </ul>
+                        </div>
+                    </div>
+            </nav>
+        </div>
+    </div>
+    <div class="content" style="padding-left: 1in;">
+        <div class="collumns">
+            <div class="collumn">
+                <div class="head"><span class="headline hl3">The Myths behind Earthquakes</span>
+                    <p><span class="headline hl4">by fill in blank here</span></p>
+                </div>
+                so epic story about earthquakes and myths!
+                <a href="http://uraha.de/de/?p=390&lang=en">
+                    <img src="https://www.bgs.ac.uk/discoveringGeology/hazards/earthquakes/images/restlessGods.jpg"
+                        alt="Pictures of Earthquakes" width="160" height="343"></a>
+                </p>
+            </div>
+            <div class="collumn">
+                <div class="head"><span class="headline hl5">Earthquake Statistics</span>
+                    <p><span class="headline hl6">Latest Update on Earthquake Statistics</span></p>
+                </div>
+                Stay up to date on earthquake statistics.
+               
+                    </p> 
+                <figure class="figure">
+                        <a href="https://worldwidewanderings.net/blog/2019/01/06/latest-update-on-earthquake-statistics/">
+                            <img src="http://worldwidewanderings.net/blog/wp-content/uploads/2019/01/Earthquakes.png"
+                              alt="Earthquakes Statistics" width="160" height="343"></a>
+
+								
+						</figure>
+
+                <p>.</p>
+
+                <p>.</p>
+
+            </div>
+            <div class="collumn">
+                <div class="head"><span class="headline hl1">May the Force be with you</span>
+                    <p><span class="headline hl2">Mappings of Earthquakes Across the Globe</span></p>
+                </div>
+                <a href="https://www.ready.gov/earthquakes"><img
+                        src="https://img.volcanodiscovery.com/maps/earthquakes-latest.jpg" alt="Earthquake Data "
+                        width="170" height="343"></a>
+                </p>
+            </div>
+            <div class="collumn">
+                <div class="head"><span class="headline hl3">The buzz of the little world </span>
+                    <p><span class="headline hl4">Earthquakes explained</span></p>
+                </div>
+                <p>
+                    <a href="https://www.dummies.com/education/science/what-are-earthquakes/"><img
+                            src="/static/Photos/EQexplained.jpg" alt="Earthquake Data Visualizations" width="170"
+                            height="343"></a>
+
+                    Click the photo about to learn about earthquakes; what causes them and how they work. </p>
+            </div>
+            <div class="collumn">
+                <div class="head"><span class="headline hl1">It wasn't a dream </span>
+                    <p><span class="headline hl4">What to do if caught in an earthquake.</span></p>
+                </div>
+                <p>Click on the photo below  and learn what to do if caught in the midst of an earthquake.
+                    <a
+                        href="https://www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/earthquake.html"><img
+                            src="https://www.trbimg.com/img-573cd237/turbine/la-1463603886-snap-photo/2000"
+                            alt="Earthquake News" width="100%" height="40%"></a> </p>
+                     </div>
+        </div>
+    </div>
+
+</body>
+<footer>
+		<div class="text-center copy-right-text" style=" text-emphasis-color: #39B7CD;">
+			© 2019 DataLake, Inc. All Rights Reserved. <a href="/">Privacy Policy</a>
+		</div>
+	</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</html>

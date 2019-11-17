@@ -1,0 +1,1 @@
+FLASK_APP=megpro_hero/app.py flask runpython app.py
