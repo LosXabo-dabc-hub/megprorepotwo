@@ -14,10 +14,10 @@ Tableau's features helped us to perform tasks like sorting, comparing, grouping 
 
 Machine Learning
 
-To complete machine learning, time series were forecasted using ARIMA model where autorima models were buit in python. DBSCAN algorithm was utilized to seperate earthquake clusters and anomalies with 150 kilometer bubble in a minumum grouping of ten.
+To complete machine learning, time series were forecasted using ARIMA model where autoarima models were built in python. DBSCAN algorithm was utilized to separate earthquake clusters and anomalies with 150 kilometer bubble in a minimum grouping of ten.
 
 Big Data Analytics
 
-Basis AWS applications were utilized to store data for this project. After cleaning data in Python it was stored on a AWS S3 Bucket on cloud storage which was connected to Zepplin where data analisys and a graph was plotted.
+Basis AWS applications were utilized to store data for this project. After cleaning data in Python it was stored on a AWS S3 Bucket on cloud storage which was connected to Zepplin where data analysis and a graph was plotted.
 
 Finally, the project was deployed on Heroku. 
