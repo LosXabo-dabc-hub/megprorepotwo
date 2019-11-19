@@ -14,7 +14,7 @@ Tableau's features helped us to perform tasks like sorting, comparing, grouping 
 
 Machine Learning
 
-To complete machine learning, time series were forecasted using ARIMA model where autoarima models were built in python. Also a DBSCAN algorithm performed clusters analysis in 150 kilometer epsilon bubbles with a minimum grouping of ten based upon USGS earthquake documentation, providing 99.5% compression of 23,412 points down to 116 clusters.
+To complete machine learning, time series were forecasted using ARIMA model where autoarima models were built in python. Using python earthquakes frequency was identified for past 52 years, and then earthquake forecast was made utilizing Arima model. Also a DBSCAN algorithm performed clusters analysis in 150 kilometer epsilon bubbles with a minimum grouping of ten based upon USGS earthquake documentation, providing 99.5% compression of 23,412 points down to 116 clusters.
 
 Big Data Analytics
 
