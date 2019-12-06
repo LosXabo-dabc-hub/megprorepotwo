@@ -1,9 +1,8 @@
-Earthquake Analysis and Prediction
+## Earthquake Analysis and Prediction
 
-This repository is associated with a machine learning and optimization techniques which were used for the prediction of earthquakes and clusters. Various methods are applied taking the raw fields of the original dataset as well as certain useful features extracted from the original dataset as input to the various machine learning models.It was observed that the results improved when the features extracted from the original dataset were used as input to those machine learning models than when the raw fields of the original data were used for the same purpose.
-Initial Dataset
-earthquakes.csv
-
+This part of the project is associated with a machine learning and optimization techniques which were used for the prediction of earthquakes and clusters. Various methods are applied taking the raw fields of the original dataset as well as certain useful features extracted from the original dataset as input to the various machine learning models.It was observed that the results improved when the features extracted from the original dataset were used as input to those machine learning models than when the raw fields of the original data were used for the same purpose.
+_Note: Data set can be extracted [here](https://www.kaggle.com/usgs/earthquake-database)_
+ 
 This dataset was taken from Kaggle and the url link for the same is https://www.kaggle.com/usgs/earthquake-database
 
 As mentioned earlier various features were extracted from the original dataset. 
