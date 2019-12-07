@@ -7,7 +7,10 @@ Java application fetches earthquake data from the USGS website and puts the eart
 * Flask-powered API
 * HTML/CSS
 * Java Script
+* Leaflet
+* D3.js
 * MongoDB
+
 The size and color of each marker reflects the magnitude of the earthquake represented. To prevent the map from being overloaded, a minimum threshold for the magnitude, clusters, anamaly of the earthquakes shown can be set as well a map format can be changed.
 
 This project is also associated with `machine learning` and optimization techniques which were used for the `prediction` of earthquakes and `clusters`. Various methods are applied taking the raw fields of the original dataset as well as certain useful features extracted from the original dataset as input to the various machine learning models.It was observed that the results improved when the features extracted from the original dataset were used as input to those machine learning models than when the raw fields of the original data were used for the same purpose.
