@@ -29,5 +29,5 @@ To complete machine learning, time series were forecasted using `ARIMA model` wh
 #### Big Data Analytics
 `AWS applications` were utilized to store data for this project. After cleaning data in `Python` it was stored on a AWS `S3 Bucket` on cloud storage which was connected to `Zepplin` where data analysis was done and a graph was plotted.
 
-Finally, the project was deployed on `Heroku`. 
+Finally, the project was deployed on `Heroku`.  
 To see the project click [here](https://quakeland.herokuapp.com/)
